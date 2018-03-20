@@ -12,7 +12,7 @@ long neon_iteration;
 
 float32_t mul(float *source,float *weight);
 void create_input(int size);
-
+// can we remove 'static'?
 static long diff_in_us(struct timespec t1, struct timespec t2)
 {
     struct timespec diff;
